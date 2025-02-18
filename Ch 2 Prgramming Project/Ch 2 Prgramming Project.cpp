@@ -8,8 +8,8 @@ int main()
 {
 
 
-    int i, y5, y7, y10;
-    float increase, d5, d7, d10;
+    int i, y5, y7, y10; 
+    float increase, d5, d7, d10; // initializing variables
 
     increase = 1.5;
 
@@ -19,13 +19,13 @@ int main()
 
     d5 = increase * y5;
     d7 = increase * y7;
-    d10 = increase * y10;
+    d10 = increase * y10; // all of the formulas necessary to complete the assignment
 
     cout << "In " << y5 << " years, the ocean will have risen " << d5 << " mm higher than today's current level!" << "\n";
     cout << "\n";
     cout << "In " << y7 << " years, the ocean will have risen " << d7 << " mm higher than today's current level!" << "\n";
     cout << "\n";
-    cout << "In " << y10 << " years, the ocean will have risen " << d10 << " mm higher than today's current level!" << "\n";
+    cout << "In " << y10 << " years, the ocean will have risen " << d10 << " mm higher than today's current level!" << "\n"; // success!
 
 
     return 0;
