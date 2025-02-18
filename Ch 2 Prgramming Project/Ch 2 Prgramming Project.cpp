@@ -4,13 +4,13 @@
 #include <iostream>
 
 using namespace std;
-
 int main()
-
 {
+
+
     int i, y5, y7, y10;
     float increase, d5, d7, d10;
-    
+
     increase = 1.5;
 
     y5 = 5;
@@ -30,5 +30,6 @@ int main()
 
     return 0;
 }
+
 
 
