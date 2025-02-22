@@ -8,27 +8,22 @@ using namespace std;
 int main()
 
 {
-    int i, y5, y7, y10;
-    float increase, d5, d7, d10;
     
-    increase = 1.5;
+    int tank;
+    double Hwy, Town, hAvg, tAvg;
+    // Assign value to the variables
+    tank = 20;
+    Hwy = 28.9;
+    Town = 23.5;
+    // Formulas
+    hAvg = Hwy * tank;
+    tAvg = Town * tank;
 
-    y5 = 5;
-    y7 = 7;
-    y10 = 10;
+    cout << "In town, with a tank size of " << tank << " gallons, you should expect to get " << tAvg << " miles of travel.\n";
 
-    d5 = increase * y5;
-    d7 = increase * y7;
-    d10 = increase * y10;
-
-    cout << "In " << y5 << " years, the ocean will have risen " << d5 << " mm higher than today's current level!" << "\n";
     cout << "\n";
-    cout << "In " << y7 << " years, the ocean will have risen " << d7 << " mm higher than today's current level!" << "\n";
-    cout << "\n";
-    cout << "In " << y10 << " years, the ocean will have risen " << d10 << " mm higher than today's current level!" << "\n";
 
+    cout << "On the highway, with a tank size of " << tank << " gallons, you should expect to get " << hAvg << " miles of travel.\n";
 
     return 0;
 }
-
-
