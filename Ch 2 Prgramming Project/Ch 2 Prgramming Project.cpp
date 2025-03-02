@@ -8,9 +8,9 @@ using namespace std;
 int main()
 
 {
-    int cust, fans, citrus;
+    int cust, fans, citrus; // naming variables, only used INTs because you cannot have a partial person
   
-    cust = 16500;
+    cust = 16500; // formulas
 
     fans = cust * .15;
 
